@@ -1,0 +1,48 @@
+# .NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+packages/
+*.db
+
+# Angular
+node_modules/
+dist/
+out-tsc/
+coverage/
+*.log
+*.tsbuildinfo
+.angular/
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+src/**/*.ngsummary.json
+src/**/*.ngfactory.ts
+src/**/*.ngstyle.ts
+src/**/*.ngsummary.json
+src/**/*.ngfactory.js
+src/**/*.ngstyle.js
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
