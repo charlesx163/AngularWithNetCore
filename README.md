@@ -4,7 +4,12 @@
 ## 以下是一个示例 proxy.conf.json 文件的内容，以及如何配置它。
 
 示例 proxy.conf.json
-\```
+
+### 示例代码
+
+
+
+```
 {
   "/api": {
     "target": "http://localhost:3000",
@@ -13,7 +18,7 @@
     "logLevel": "debug"
   }
 }
-\```
+```
 
 ## 说明
 - "/api": 这是你希望代理的请求路径前缀。所有以 /api 开头的请求都会被代理到目标服务器。
@@ -24,13 +29,13 @@
 使用 proxy.conf.json
 如果你在使用 Angular CLI，可以在 angular.json 文件中配置代理：
 
-\```
+```
 "serve": {
   "options": {
     "proxyConfig": "src/proxy.conf.json"
   }
 }
-\```
+```
 
 # 总结
 proxy.conf.json 文件用于配置代理设置，帮助在开发环境中转发 API 请求。根据你的需求，可以修改目标地址和其他设置
